@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   width="448"
+   height="984"
+   viewBox="0 0 448 984"
+   fill="none"
+   version="1.1"
+   id="svg292"
+   sodipodi:docname="results-img.svg"
+   inkscape:version="1.2.2 (732a01da63, 2022-12-09)"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:svg="http://www.w3.org/2000/svg">
+  <sodipodi:namedview
+     id="namedview294"
+     pagecolor="#ffffff"
+     bordercolor="#000000"
+     borderopacity="0.25"
+     inkscape:showpageshadow="2"
+     inkscape:pageopacity="0.0"
+     inkscape:pagecheckerboard="0"
+     inkscape:deskcolor="#d1d1d1"
+     showgrid="false"
+     inkscape:zoom="1.0951532"
+     inkscape:cx="34.241785"
+     inkscape:cy="400.85716"
+     inkscape:window-width="1920"
+     inkscape:window-height="970"
+     inkscape:window-x="-12"
+     inkscape:window-y="-12"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg292" />
+  <g
+     filter="url(#filter0_d_0_1)"
+     id="g4"
+     transform="matrix(0.84917309,0,0,0.47348655,21.914742,218.23431)">
+    <rect
+       x="24"
+       width="400"
+       height="944"
+       rx="32"
+       fill="white"
+       id="rect2"
+       style="fill:#000000;fill-opacity:1"
+       y="0" />
+  </g>
+  <defs
+     id="defs290">
+    <filter
+       id="filter0_d_0_1"
+       x="0"
+       y="0"
+       width="448"
+       height="992"
+       filterUnits="userSpaceOnUse"
+       color-interpolation-filters="sRGB">
+      <feFlood
+         flood-opacity="0"
+         result="BackgroundImageFix"
+         id="feFlood268" />
+      <feColorMatrix
+         in="SourceAlpha"
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 127 0"
+         result="hardAlpha"
+         id="feColorMatrix270" />
+      <feMorphology
+         radius="8"
+         operator="erode"
+         in="SourceAlpha"
+         result="effect1_dropShadow_0_1"
+         id="feMorphology272" />
+      <feOffset
+         dy="24"
+         id="feOffset274" />
+      <feGaussianBlur
+         stdDeviation="16"
+         id="feGaussianBlur276" />
+      <feComposite
+         in2="hardAlpha"
+         operator="out"
+         id="feComposite278" />
+      <feColorMatrix
+         type="matrix"
+         values="0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0.08 0"
+         id="feColorMatrix280" />
+      <feBlend
+         mode="normal"
+         in2="BackgroundImageFix"
+         result="effect1_dropShadow_0_1"
+         id="feBlend282" />
+      <feBlend
+         mode="normal"
+         in="SourceGraphic"
+         in2="effect1_dropShadow_0_1"
+         result="shape"
+         id="feBlend284" />
+    </filter>
+    <clipPath
+       id="clip0_0_1">
+      <rect
+         width="336"
+         height="304"
+         fill="white"
+         transform="translate(56 243)"
+         id="rect287" />
+    </clipPath>
+  </defs>
+</svg>

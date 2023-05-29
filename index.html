@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de textos - Bidimar</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper/swiper-bundle.min.css">
+    <link rel="stylesheet" href="style.css">
+
+</head>
+
+<body>
+<!-- El banner de la página. \-->  
+    <header>
+
+        <div class="banner-up">
+            <img class="logo-1" src="logo.svg" alt="">
+        </div>
+
+        <div class="tittle-text">
+            <ul>
+                <li>Bienvenido al encripador de textos.</li>
+            </ul>
+        </div>
+
+    </header>
+
+    <main class="results">
+        <section class="results-text">
+
+            <div class="results-img">
+                <img src="results-img.svg" alt="">
+            </div>
+
+            <div class="results-img-2">
+                <img src="results-img2.svg" alt="Imagen" id="movingImage2">
+            </div>
+    
+            <div class="results-txt">
+                <h2>Ningún mensaje fue encontrado</h2>
+                <h4>Ingresa el texto que desees encriptar desencriptar.</h4>
+            </div>
+        </section>    
+    </main>
+
+<!-- El area de texto donde el usuario podrá escribir su texto. \--> 
+    <main>
+        <form>
+
+            <input id="userText" class="user-text" name="user-text" type="textarea" placeholder="Ingrese su texto aquí..."></textarea>
+            <input class="btn-1" type="button" value="Encriptar" id="btn-encrypt">
+            <input class="btn-2" type="button" value="Desencriptar" id="btn-decrypt">
+            
+            <div class="adv-img">
+                <img src="advertising.svg" alt="">
+            </div>
+            
+            <div class="adv-txt">
+                <h4>Solo letras minúsculas y sin acentos.</h4>
+            </div>
+
+        </form>
+    </main>
+
+<!-- resultado del usuario \-->  
+    <section class="msg-rsl">
+        <textarea class="text-result" id="textResult"></textarea>
+        <input class="btn-3" type="button" value="Copiar" id="btn-copy">
+        <input class="btn-4" type="button" value="Pegar" id="btn-paste">
+    </section>\
+
+<!-- Inicializanción del script \-->   
+    <script src="script.js"></script>
+
+
+</body>
+</html>
